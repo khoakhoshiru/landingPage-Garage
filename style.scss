@@ -1,0 +1,328 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+$fontFS: "Dosis", sans-serif !important;
+
+body {
+  font-family: "Dosis", sans-serif;
+  position: relative;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(223, 215, 204, 1) 0%
+  );
+  min-height: 100vh;
+}
+.header {
+  z-index: 1;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  .img-logo {
+    img {
+      width: 2.7em;
+      height: 2.7em;
+      border-radius: 50%;
+    }
+    span {
+      font-family: $fontFS;
+    }
+  }
+}
+.canvas {
+  .carousel-item {
+    max-width: 100%;
+  }
+  img {
+    height: 40em;
+    object-fit: cover;
+  }
+}
+
+.service {
+  margin-top: 3em;
+  .cardService {
+    border: solid black 1px;
+    padding: 2em;
+    border-radius: 0.5em;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(224, 183, 170, 1) 0%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
+  .topSer {
+    text-align: center;
+    img {
+      border-radius: 0.7em;
+      width: 289px;
+      height: 20em;
+      object-fit: cover;
+    }
+  }
+  .bottomSer {
+    margin-top: 2em;
+    // <!-- HTML !-->
+    // <button class="button-5" role="button">Button 5</button>
+
+    /* CSS */
+    .button-5 {
+      align-items: center;
+      background-clip: padding-box;
+      background-color: #fa6400;
+      border: 1px solid transparent;
+      border-radius: 0.25rem;
+      box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: inline-flex;
+      font-family: system-ui, -apple-system, system-ui, "Helvetica Neue",
+        Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      justify-content: center;
+      line-height: 1.25;
+      margin: 0;
+      min-height: 3rem;
+      padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+      position: relative;
+      text-decoration: none;
+      transition: all 250ms;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: baseline;
+      width: auto;
+      //
+    }
+    .button-5:hover {
+      background-color: #fb8332;
+      box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+      transform: translateY(-1px);
+    }
+  }
+}
+.product {
+  @media (min-width: 568px) {
+    .end {
+      margin-left: auto;
+    }
+  }
+
+  @media (max-width: 768px) {
+    #post {
+      width: 100%;
+    }
+  }
+  #clicked {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+    width: 100%;
+    background-color: #ecb21f;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 13px;
+  }
+
+  #profile {
+    background-color: unset;
+  }
+
+  #post {
+    margin: 10px;
+    padding: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    background-color: #ecb21f;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 13px;
+    width: 50%;
+  }
+
+  body {
+    background-color: black;
+  }
+
+  #nav-items li a,
+  #profile {
+    text-decoration: none;
+    color: rgb(224, 219, 219);
+    background-color: black;
+  }
+
+  .comments {
+    margin-top: 5%;
+    margin-left: 20px;
+  }
+
+  .darker {
+    border: 1px solid #ecb21f;
+    background-color: black;
+    float: right;
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 10px;
+  }
+
+  .comment {
+    border: 1px solid rgba(16, 46, 46, 1);
+    background-color: rgba(16, 46, 46, 0.973);
+    float: left;
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 10px;
+  }
+  .comment h4,
+  .comment span,
+  .darker h4,
+  .darker span {
+    display: inline;
+  }
+
+  .comment p,
+  .comment span,
+  .darker p,
+  .darker span {
+    color: rgb(184, 183, 183);
+  }
+
+  h1,
+  h4 {
+    color: white;
+    font-weight: bold;
+  }
+  label {
+    color: rgb(212, 208, 208);
+  }
+
+  #align-form {
+    margin-top: 20px;
+  }
+  .form-group p a {
+    color: white;
+  }
+
+  #checkbx {
+    background-color: black;
+  }
+
+  #darker img {
+    margin-right: 15px;
+    position: static;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    background-color: black;
+    border: 1px solid rgba(16, 46, 46, 1);
+    border-radius: 12px;
+    color: #fff;
+  }
+
+  form {
+    border: 1px solid rgba(16, 46, 46, 1);
+    background-color: rgba(16, 46, 46, 0.973);
+    border-radius: 5px;
+    padding: 20px;
+  }
+}
+
+// footer here
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+.footer {
+  background-color: #24262b;
+  padding: 70px 0;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+/*responsive*/
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}

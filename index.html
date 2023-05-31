@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="allSection">
+      <!-- tat ca web nam o day -->
+      <section class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid justify-content-between">
+            <a class="navbar-brand" href="#">
+              <span class="img-logo">
+                <img src="./imgcar/supercar sale.png" alt="" srcset="" />
+              </span>
+              <span>MyCar.vn</span>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav justify-content-end">
+                <li class="nav-item mx-4">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item mx-4">
+                  <a class="nav-link" href="#">Service</a>
+                </li>
+                <li class="nav-item mx-4">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <!--  -->
+      <section class="canvas">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active h-25">
+              <img
+                src="./imgcar/mintosko-V4b2j7f1dfc-unsplash.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div
+                class="carousel-caption d-none d-md-block text-opacity-75 rounded-2"
+              >
+                <h5>Dịch vụ chăm sóc xe</h5>
+                <p>
+                  Đội ngũ tận tâm nhiệt tình sẽ biến xế cưng thành ngôi nhà thứ
+                  2 của bạn .
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item h-25">
+              <img
+                src="./imgcar/kate-ibragimova-iFQpqbLMOFU-unsplash.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div
+                class="carousel-caption d-none d-md-block text-opacity-75 rounded-2"
+              >
+                <h5>Sửa chữa và thay thế phụ tùng</h5>
+                <p>
+                  Bảo đảm kỹ thuật đúng quy trình theo hãng sản xuất giúp bạn an
+                  tâm khi lái xe.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item h-25">
+              <img
+                src="./imgcar/tyler-clemmensen-d1Jum1vVLew-unsplash.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div
+                class="carousel-caption d-none d-md-block text-opacity-75 rounded-2"
+              >
+                <h5>Đặt mua xe sang</h5>
+                <p>Thủ tục nhanh chóng đưa xe tận nhà .</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section class="service text-start p-3">
+        <div class="service- row justify-content-around">
+          <div class="cardService col-3">
+            <!-- //card here -->
+            <div class="topSer">
+              <img
+                class="imgSer"
+                src="./imgcar/kate-ibragimova-iFQpqbLMOFU-unsplash.jpg"
+                alt=""
+              />
+            </div>
+            <div class="bottomSer">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+                suscipit!
+              </p>
+              <a class="text-decoration-none" href="">
+                <button class="button-5" role="button">Button 5</button>
+              </a>
+            </div>
+          </div>
+
+          <div class="cardService col-3">
+            <div class="topSer">
+              <img
+                class="imgSer"
+                src="./imgcar/mintosko-V4b2j7f1dfc-unsplash.jpg"
+                alt=""
+              />
+            </div>
+            <div class="bottomSer">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+                suscipit!
+              </p>
+              <a class="text-decoration-none" href="">
+                <button class="button-5" role="button">Button 5</button>
+              </a>
+            </div>
+          </div>
+
+          <!-- card3 -->
+          <div class="cardService col-3">
+            <div class="topSer">
+              <img
+                class="imgSer"
+                src="./imgcar/tyler-clemmensen-d1Jum1vVLew-unsplash.jpg"
+                alt=""
+              />
+            </div>
+            <div class="bottomSer">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+                suscipit!
+              </p>
+              <a class="text-decoration-none" href="">
+                <button class="button-5" role="button">Button 5</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="product container text-white">
+        <div class="row">
+          <div class="col-sm-5 col-md-6 col-12 pb-4">
+            <h1>Comments</h1>
+            <div class="comment mt-4 text-justify float-left">
+              <img
+                src="./imgcar/tải xuống fog.jpeg"
+                alt=""
+                class="rounded-circle"
+                width="40"
+                height="40"
+              />
+              <h4>Cu Tý</h4>
+              <span>- 20 October, 2022</span>
+              <br />
+              <p>
+                ôi rất hài lòng với dịch vụ mà bạn cung cấp và sẽ chắc chắn giới
+                thiệu cho bạn bè và người thân của mình. Cảm ơn bạn đã mang đến
+                một trải nghiệm tuyệt vời và chuyên nghiệp."
+              </p>
+            </div>
+            <div class="text-justify darker mt-4 float-right">
+              <img
+                src="./imgcar/tải xuốngdsd.jpeg"
+                alt=""
+                class="rounded-circle"
+                width="40"
+                height="40"
+              />
+              <h4>cu tèo</h4>
+              <span>- 20 October, 2022</span>
+              <br />
+              <p>
+                Việc mua xe từ bạn cũng là một trải nghiệm tuyệt vời. Nhân viên
+                tư vấn rất am hiểu về sản phẩm và đã giúp tôi tìm được chiếc xe
+                phù hợp với nhu cầu của mình. Quy trình mua xe rất thuận tiện và
+                nhanh chóng.
+              </p>
+            </div>
+            <div class="comment mt-4 text-justify">
+              <img
+                src="./imgcar/tải xuốngdsd.jpeg"
+                alt=""
+                class="rounded-circle"
+                width="40"
+                height="40"
+              />
+              <h4>thầy Ba</h4>
+              <span>- 20 October, 2022</span>
+              <br />
+              <p>
+                Dịch vụ chăm sóc xe cũng rất tuyệt vời. Xe của tôi trông như mới
+                sau khi được chăm sóc, và tôi cảm thấy rất hài lòng với kết quả.
+                Giá cả cũng rất hợp lý và minh bạch, không có bất kỳ phụ phí bất
+                ngờ nào.
+              </p>
+            </div>
+            <div class="darker mt-4 text-justify">
+              <img
+                src="./imgcar/tải xuống fog.jpeg"
+                alt=""
+                class="rounded-circle"
+                width="40"
+                height="40"
+              />
+              <h4>cu bo</h4>
+              <span>- 20 October, 2022</span>
+              <br />
+              <p>
+                Đây là lần đầu tiên tôi sử dụng dịch vụ sửa chữa, chăm sóc và
+                mua xe của bạn và tôi thực sự ấn tượng. Nhân viên rất chuyên
+                nghiệp, thân thiện và nhiệt tình. Việc sửa chữa xe được thực
+                hiện nhanh chóng và chất lượng công việc rất tốt.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-5 col-sm-4 offset-md-1 offset-sm-1 col-12 mt-4"
+          >
+            <form id="algin-form">
+              <div class="form-group">
+                <h4>Leave a comment</h4>
+                <label for="message">Message</label>
+                <textarea
+                  name="msg"
+                  id=""
+                  msg
+                  cols="30"
+                  rows="5"
+                  class="form-control"
+                  style="background-color: black"
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="fullname"
+                  class="form-control"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  class="form-control"
+                />
+              </div>
+              <div class="form-group">
+                <p class="text-secondary">
+                  If you have a
+                  <a href="#" class="alert-link">gravatar account</a> your
+                  address will be used to display your profile picture.
+                </p>
+              </div>
+              <div class="form-inline">
+                <input type="checkbox" name="check" id="checkbx" class="mr-1" />
+                <label for="subscribe">Subscribe me to the newlettter</label>
+              </div>
+              <div class="form-group">
+                <button type="button" id="post" class="btn">
+                  Post Comment
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- footer o day -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              <h4>company</h4>
+              <ul>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">our services</a></li>
+                <li><a href="#">privacy policy</a></li>
+                <li><a href="#">affiliate program</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>get help</h4>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">shipping</a></li>
+                <li><a href="#">returns</a></li>
+                <li><a href="#">order status</a></li>
+                <li><a href="#">payment options</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>online shop</h4>
+              <ul>
+                <li><a href="#">Phụ kiện </a></li>
+                <li><a href="#">Đồ chơi xe</a></li>
+                <li><a href="#">Thay thế linh kiện</a></li>
+                <li><a href="#">Đặt mua xe </a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
